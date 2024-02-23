@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711134394580",
+    "project_id": "opinio-quest",
+    "storage_bucket": "opinio-quest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711134394580:android:b334ef6b97aeaf158c2341",
+        "android_client_info": {
+          "package_name": "com.opinioquest.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4l1wrbO9RyqxYpEPT5gQEL5I5cTXaWbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

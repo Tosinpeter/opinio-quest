@@ -1,0 +1,50 @@
+name: opinio_quest
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.4.10
+  overlay_loader_with_app_icon: ^0.0.3
+  flutter_webview_pro: ^3.0.1+4
+  flutter_offline: ^3.0.1
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+  firebase_core: ^2.25.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_gen_runner:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash-logo.png
+  android_12:
+    image: assets/images/android12splash.png
+    color: "#ffffff"
+    color_dark: "#ffffff"
